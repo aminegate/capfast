@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panier</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i">
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- font - fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!------------------------------------------------------------------------->
+    <!------------------------- Sidebar Menu / Start -------------------------->
+    <!------------------------------------------------------------------------->   
+    <div class="side-menu" id="side-menu">
+       <div class="profileSection">
+           <div class="sidebar-header">
+               <div class="user-pic">
+                   <img class="img-responsive img-rounded" src="images/profile.png" alt="User picture">
+               </div>
+               <div class="user-info">
+                   <span class="user-name">Nom
+                       <strong>Prénom</strong>
+                   </span>
+                   <span class="user-role">Représentant</span>
+               </div>
+           </div>
+        </div>
+        <a href="login.html">Login</a>
+        <a href="index.html">Recherche</a>
+        <a href="produit.html">Produit</a>
+        <a href="table.html">Datatable</a>
+        <a href="Panier.html">Panier</a>
+        <a href="list.html">List</a>
+        <a href="devis.html">Devis</a>
+    </div>
+    <!------------------------------------------------------------------------->
+    <!-------------------------- Sidebar Menu / End --------------------------->
+    <!------------------------------------------------------------------------->   
+    <!------------------------------------------------------------------------->
+    <!------------------------- Main Content / Start -------------------------->
+    <!------------------------------------------------------------------------->
+    <div class="main-content">
+        <!--------------------------------------------------------------------->
+        <!--------------------------------------------------------------------->
+        <!--------------------------------------------------------------------->
+        <button id="menu-toggle">☰ Menu</button>
+        <h1>Panier</h1>
+        <!--------------------------------------------------------------------->
+        <!--------------------------------------------------------------------->
+        <!--------------------------------------------------------------------->
+        <div class="cart">
+            <!----------------------------------------------------------------->
+            <!------------------------ Buttons / Start ------------------------>
+            <!----------------------------------------------------------------->
+            <button class="deletAll"><i class="fa-solid fa-trash"></i>&nbsp;Envoyer vers le brouillon</button>
+            <button class="restoreAll"><i class="fa-solid fa-trash-arrow-up"></i>&nbsp;Importer du brouillon</button>
+            <!----------------------------------------------------------------->
+            <!---------- Buttons / End ----------->
+            <!------------------------------------>
+            <div class="cartInfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="cartInfoWrapper">
+                                <div class="cartInfoLeftSide">
+                                   <div class="cartInfoLeftSideImg">
+                                        <img src="images/product-1-245x245.jpg" alt="">
+                                    </div>
+                                    <button class="deleteItem">Supprimer</button>
+                                </div>
+                                <div class="cartInfoRightSide">
+                                    <div class="cartInfoMiddle">
+                                        <span class="cartRef">THUVGRG548RR</span>
+
+                                        <span class="cartDesi">
+                                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        </span>
+                                        <div class="CartPriceInfo">
+                                            <div class="cartBRUT"><span>180.00 Dh</span>&nbsp;<span>(BRUT)</span></div>
+                                            <div class="cartNet"><span>160.00 Dh</span>&nbsp;<span>(NET)</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="cartQuantity">
+                                        <div class="purchaseButtonSection">
+                                            <div class="number-input">
+                                                <button class="decrement">-</button>
+                                                <input type="number" class="quantity" value="0" min="0" max="100">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="totalPrice"><span>Total</span><span>160.00 DH</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="cartInfoWrapper">
+                                <div class="cartInfoLeftSide">
+                                   <div class="cartInfoLeftSideImg">
+                                        <img src="images/product-1-245x245.jpg" alt="">
+                                    </div>
+                                    <button class="deleteItem">Supprimer</button>
+                                </div>
+                                <div class="cartInfoRightSide">
+                                    <div class="cartInfoMiddle">
+                                        <span class="cartRef">THUVGRG548RR</span>
+
+                                        <span class="cartDesi">
+                                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        </span>
+                                        <div class="CartPriceInfo">
+                                            <div class="cartBRUT"><span>180.00 Dh</span>&nbsp;<span>(BRUT)</span></div>
+                                            <div class="cartNet"><span>160.00 Dh</span>&nbsp;<span>(NET)</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="cartQuantity">
+                                        <div class="purchaseButtonSection">
+                                            <div class="number-input">
+                                                <button class="decrement">-</button>
+                                                <input type="number" class="quantity" value="0" min="0" max="100">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="totalPrice"><span>Total</span><span>160.00 DH</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="cartInfoWrapper">
+                                <div class="cartInfoLeftSide">
+                                   <div class="cartInfoLeftSideImg">
+                                        <img src="images/product-1-245x245.jpg" alt="">
+                                    </div>
+                                    <button class="deleteItem">Supprimer</button>
+                                </div>
+                                <div class="cartInfoRightSide">
+                                    <div class="cartInfoMiddle">
+                                        <span class="cartRef">THUVGRG548RR</span>
+
+                                        <span class="cartDesi">
+                                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        </span>
+                                        <div class="CartPriceInfo">
+                                            <div class="cartBRUT"><span>180.00 Dh</span>&nbsp;<span>(BRUT)</span></div>
+                                            <div class="cartNet"><span>160.00 Dh</span>&nbsp;<span>(NET)</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="cartQuantity">
+                                        <div class="purchaseButtonSection">
+                                            <div class="number-input">
+                                                <button class="decrement">-</button>
+                                                <input type="number" class="quantity" value="0" min="0" max="100">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="totalPrice"><span>Total</span><span>160.00 DH</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                      <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="cartInfoWrapper">
+                                <div class="cartInfoLeftSide">
+                                   <div class="cartInfoLeftSideImg">
+                                        <img src="images/product-1-245x245.jpg" alt="">
+                                    </div>
+                                    <button class="deleteItem">Supprimer</button>
+                                </div>
+                                <div class="cartInfoRightSide">
+                                    <div class="cartInfoMiddle">
+                                        <span class="cartRef">THUVGRG548RR</span>
+
+                                        <span class="cartDesi">
+                                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        </span>
+                                        <div class="CartPriceInfo">
+                                            <div class="cartBRUT"><span>180.00 Dh</span>&nbsp;<span>(BRUT)</span></div>
+                                            <div class="cartNet"><span>160.00 Dh</span>&nbsp;<span>(NET)</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="cartQuantity">
+                                        <div class="purchaseButtonSection">
+                                            <div class="number-input">
+                                                <button class="decrement">-</button>
+                                                <input type="number" class="quantity" value="0" min="0" max="100">
+                                                <button class="increment">+</button>
+                                            </div>
+                                        </div>
+                                        <div class="totalPrice"><span>Total</span><span>160.00 DH</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                       </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------>
+        <!------------------------------------>
+        <!------------------------------------>
+        <div class="totalInfo">
+            <form action="" class="totalForm" id="popupForm">
+                <div class="totalTax">
+                    <fieldset>
+                        <legend>Total H.T</legend>
+                        <span>153.21</span>
+                    </fieldset>
+                </div>
+                <div class="totalTax">
+                    <fieldset>
+                        <legend>Total T.V.A</legend>
+                        <span>153.21</span>
+                    </fieldset>
+                </div>
+                <div class="totalTax">
+                    <fieldset>
+                        <legend>Total T.T.C</legend>
+                        <span>153.21</span>
+                    </fieldset>
+                </div>
+                <div class="commandWrapper">
+                    <button class="command" id="showPopup">Finaliser la commande</button>
+                </div>
+
+                <!-- Popup -->
+                <div class="popup-overlay" id="popupOverlay">
+                    <div class="popup">
+                        <!-- Data List Inputs -->
+                        <div class="inputInfo">
+                            <label for="data1">Depot</label>
+                            <input list="list1" id="data1" name="data1">
+                            <datalist id="list1">
+                                <option value="Option 1"></option>
+                                <option value="Option 2"></option>
+                                <option value="Option 3"></option>
+                            </datalist>
+                        </div>
+                        <div class="inputInfo">
+                            <label for="data2">Client</label>
+                            <input list="list2" id="data2" name="data2">
+                            <datalist id="list2">
+                                <option value="Option A"></option>
+                                <option value="Option B"></option>
+                                <option value="Option C"></option>
+                            </datalist>
+                        </div>
+                        <div class="inputInfo">
+                            <label for="data3">Raison Social</label>
+                            <input list="list3" id="data3" name="data3">
+                            <datalist id="list3">
+                                <option value="Item X"></option>
+                                <option value="Item Y"></option>
+                                <option value="Item Z"></option>
+                            </datalist>
+                        </div>
+                        <div class="inputInfo">
+                            <label for="data4">Representant</label>
+                            <input list="list4" id="data4" name="data4">
+                            <datalist id="list4">
+                                <option value="Choice 1"></option>
+                                <option value="Choice 2"></option>
+                                <option value="Choice 3"></option>
+                            </datalist>
+                        </div>
+                        <div class="inputInfo">
+                            <label for="data5">Mode Expedition</label>
+                            <input list="list5" id="data5" name="data5">
+                            <datalist id="list5">
+                                <option value="Alpha"></option>
+                                <option value="Beta"></option>
+                                <option value="Gamma"></option>
+                            </datalist>
+                        </div>
+                        <div class="inputInfo">
+                            <label for="data6">Mode Paiement</label>
+                            <input list="list6" id="data6" name="data6">
+                            <datalist id="list6">
+                                <option value="Red"></option>
+                                <option value="Blue"></option>
+                                <option value="Green"></option>
+                            </datalist>
+                        </div>
+                        <!-- Text Input -->
+                        <div class="inputInfo">
+                            <label for="textInput">Commentaire</label>
+                            <input type="text" id="textInput" name="textInput">
+                        </div>
+                        <!-- Submit Button -->
+                        <button type="submit">Validation</button>
+
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+
+
+
+    </div>
+    <!------------------------------------------------------------------------->
+    <!-------------------------- Main Content / End --------------------------->
+    <!------------------------------------------------------------------------->
+
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
