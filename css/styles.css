@@ -11,8 +11,19 @@ button#viewInvoice {
     margin-top: 60px;
     cursor: pointer;
 }
+
+    
 /**************************/
 @media print {
+    
+     @page {
+    padding-top: 25px;
+  }
+    
+    html, body {
+    height: 100%;
+    margin: 0;
+}
     
     button#menu-toggle,
     .select,
@@ -24,13 +35,28 @@ button#viewInvoice {
     }
 
     .main-content {
-        margin: 4% auto !important;
+        margin: 0% auto!important;
         padding: 0px !important;
+
     }
     
     .catalogueBoxInfo {
         padding-bottom: 0px !important;
         padding: 10px !important;
+    }
+    
+    
+.catalogueWrapper,
+.catalogues
+    {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    .catalogueBox:nth-child(9n) {
+        page-break-after: always; /* Page break after every 9th item */
     }
     
     .catalogueBoxInfo h3 {
@@ -60,7 +86,7 @@ button#printCatalogue {
     background: #007bff;
     color: white;
     right: 1%;
-    top: -5%;
+    top: -65px;
     outline: none;
     cursor: pointer;
     transition: all 0.3s ease;
