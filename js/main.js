@@ -1,4 +1,13 @@
 $(document).ready(function() {
+ 
+ $("#catalogueSelect").change(function(){
+                $("#printCatalogue").prop("disabled", $(this).val() === "");
+            }); 
+    
+    
+$('#printCatalogue').on('click', function() {
+            window.print(); // Open the print dialog
+        });    
     
     
 (function () {
@@ -77,6 +86,7 @@ $(document).ready(function() {
     }
     #invoicewrapper {  
         width: 1024px; 
+         background: white;
     }
 
 #invoice { 

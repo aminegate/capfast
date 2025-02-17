@@ -811,10 +811,10 @@ video {
     .border-around {
         border: none;
         border-radius: 0px;
-    }  
-    
+    }
+
     @page {
-    margin: 0;
-  }
+        margin: 0;
+    }
 
 }
